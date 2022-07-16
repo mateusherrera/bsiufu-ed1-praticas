@@ -19,7 +19,7 @@ gcc -c *.c
 E depois gerar o executável com todos '.o':
 
 ```
-gcc -o nome-para-o-executavel nome-do-objeto-1.o nome-do-objeto-2.o ... nome-do-objeto-n.o
+gcc -o nome-do-executavel nome-do-objeto-1.o nome-do-objeto-2.o ... nome-do-objeto-n.o
 ```
 
 Caso sejam necessários todos '.o', basta rodar:
