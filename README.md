@@ -16,16 +16,16 @@ Com o terminal, vá a pasta em que está o código fonte, e rode o seguinte coma
 gcc -c *.c
 ```
 
-E depois gerar o executável com todos '.o' gerados:
+E depois gerar o executável com todos '.o':
 
 ```
-gcc -o "nome-para-o-executavel-sem-aspas" "nome-do-.o-sem-aspas-1" "nome-do-.o-sem-aspas-2" ... "nome-do-.o-sem-aspas-n"
+gcc -o nome-para-o-executavel nome-do-objeto-1.o nome-do-objeto-2.o ... nome-do-objeto-n.o
 ```
 
 Caso sejam necessários todos '.o', basta rodar:
 
 ```
-gcc -o "nome-para-o-executavel-sem-aspas" *.o
+gcc -o nome-do-executavel *.o
 ```
 
 ## Opcional: Organizar '.o' e executável
@@ -43,7 +43,7 @@ Depois mova o arquivo objeto e o executável para suas pastas:
 
 ```
 mv *.o obj/
-mv "nome-do-executavel-sem-aspas" bin/
+mv nome-do-executavel bin/
 ```
 
 ## Para rodar o executável no terminal
@@ -51,5 +51,5 @@ mv "nome-do-executavel-sem-aspas" bin/
 Digite o comando na pasta onde está o executável:
 
 ```
-./"nome-do-executável-sem-aspas"
+./nome-do-executavel
 ```
