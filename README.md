@@ -4,7 +4,7 @@ Práticas realizadas na disciplina de Estrutura de Dados I (ED1).
 
 ## Sobre as práticas
 
-As primeiras práticas são exercícios em C, muitos voltados para o uso de matrizes e alocação dinâmica.
+As 5 primeiras práticas são exercícios em C.
 
 As demais práticas são Tipos Abstratos de Dados (TAD's), filas, pilhas, lista estáticas, listas encadeadas, listas duplamente encadeadas, listas circulares, entre outros.
 
@@ -13,13 +13,19 @@ As demais práticas são Tipos Abstratos de Dados (TAD's), filas, pilhas, lista 
 Com o terminal, vá a pasta em que está o código fonte, e rode o seguinte comando:
 
 ```
-gcc -c "nome-do-.c-sem-aspas"
+gcc -c *.c
 ```
 
 E depois gerar o executável com todos '.o' gerados:
 
 ```
 gcc -o "nome-para-o-executavel-sem-aspas" "nome-do-.o-sem-aspas-1" "nome-do-.o-sem-aspas-2" ... "nome-do-.o-sem-aspas-n"
+```
+
+Caso sejam necessários todos '.o', basta rodar:
+
+```
+gcc -o "nome-para-o-executavel-sem-aspas" *.o
 ```
 
 ## Opcional: Organizar '.o' e executável
